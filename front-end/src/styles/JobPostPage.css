@@ -1,0 +1,73 @@
+.project-file-upload-input {
+    margin-left: 85px;
+    font-size: 16px;
+    background-color: azure;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px black;
+    width: 450px;
+    outline: none;
+}
+
+.input-job-description {
+    margin-left: 95px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 73%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.select-project-type {
+    margin-left: 90px;
+    width: 450px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.freelancer-no-input {
+    margin-left: 80px;
+    width: 450px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.select-budget-type {
+    margin-right: 30px;
+    margin-left: 30px;
+    width: 150px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.dolar-icon-amount {
+    margin-left: 30px;
+    padding: 14px 10px;
+    background: #fff200;
+    color: black;
+    min-width: 45px;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.budget-container {
+    margin-left: 70px;
+}
+.hourly-rate-container {
+    margin-top: 30px;
+}
+
+.budget-amount-input {
+    width: 250px;
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+.project-input-skill {
+    margin-left: 65px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 70%;
+    outline: none;
+    border-radius: 10px;
+}

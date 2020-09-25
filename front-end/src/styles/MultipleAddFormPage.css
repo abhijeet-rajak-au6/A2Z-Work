@@ -1,0 +1,44 @@
+.form-category-container {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #fff200;
+}
+.form-category-header {
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff200;
+}
+
+.input-portfolio-link {
+    margin: 0 0 20px 50px;
+    width: 65%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-portfolio-description {
+    margin-left: 100px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 73%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-job-title {
+    margin: 0 80px 20px 135px;
+    width: 65%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-experience-description {
+    margin-left: 80px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 73%;
+    outline: none;
+    border-radius: 10px;
+}

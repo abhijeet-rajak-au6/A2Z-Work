@@ -1,0 +1,169 @@
+.profile-view-container {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    font-style: italic;
+}
+.profile-main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.profile-img-container {
+    margin-right: 20px;
+}
+.profile-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-style: italic;
+
+}
+.profile-img-edit-pencil {
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#E2D60F;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    margin: 5px 0px 0 -10px;
+}
+.edit-pencil {
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#E2D60F;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    margin: 0 0 0 20px;
+}
+
+.delete-box {
+   padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50%;
+    background-color:#E2D60F;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.75);
+    margin: 0 0 0 20px; 
+}
+.profile-img {
+    border-radius: 50%;
+}
+.resume-download {
+    cursor: pointer;
+}
+.profile-main-button-container {
+    margin-left: 200px;
+}
+.money-balance-container {
+    margin: 60px 0 0 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.work-details-container {
+    margin: 30px 0 0 200px;
+    display: flex;
+    align-items: center;
+}
+.skill-text{
+    margin: 0 0 10px 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 10px;
+    background-color: #336278;
+    color: azure;
+
+}
+
+.specialization-container{
+    font-style: italic;
+}
+
+.specialization-skill-container {
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+
+.language-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.language {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.education {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.education-details {
+    margin: 0 0 0 30px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.project-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.work-history-container {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.portfolio-container {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.portfolio-data-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.employment-history-container {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.password-security {
+    min-height: 150px;
+}
+.change-password-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.profile-security {
+    padding: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

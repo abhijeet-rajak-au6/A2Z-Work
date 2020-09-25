@@ -1,0 +1,193 @@
+.login-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4d4f53;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color : azure;
+
+}
+.login-input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.login-input-container-psw {
+    display: flex;
+    width: 100%;
+}
+.error-message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.error-message > a {
+    color:#fff200;
+    text-decoration: none;
+}
+.email-icon, .password-icon, .user-icon {
+  padding: 10px;
+  background: #fff200;
+  color: black;
+  min-width: 45px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.email-input-field, .password-input-field, .user-input-field {
+  width: 350px;
+  padding: 6px;
+  outline: none;
+  border-radius: 4px;
+}
+
+.login-button {
+    width: 395px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-border {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-border-line-2 {
+    height: 3px;
+    width: 123px;
+    background-color: #fff200;
+    margin-bottom: 10px;
+}
+
+.login-border-line-1 {
+    height: 2px;
+    width: 183px;
+    background-color: #fff200;
+    margin-bottom: 10px;
+}
+
+.login-border-text {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: italic;
+}
+
+.signup-section {
+    margin-bottom: 30px;
+}
+
+.login-signup-button {
+    width: 200px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+.social-media-login {
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-login-button {
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    background-color: #3b5998;
+    color: azure;
+}
+
+.google-login-button {
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    background-color: #0099e5;
+    color: azure;
+}
+
+.github-login-button {
+    margin-bottom: 20px;
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    background-color: #333;
+    color: azure;
+}
+
+.linkedin-login-button {
+    width: 350px;
+    padding: 10px;
+    outline: none;
+    border-radius: 8px;
+    background-color: #006699;
+    color: azure;
+}
+
+/* Registratin page */
+
+.signup-border-line-2 {
+    height: 3px;
+    width: 80px;
+    background-color: #fff200;
+    margin-bottom: 10px;
+}
+.account-type {
+    margin-bottom: 15px;
+}
+
+.account-type-button-1 {
+    margin-right: 20px;
+    width: 160px;
+    padding: 9px;
+    outline: none;
+    border-radius: 8px;
+    background-color: azure;
+}
+
+.account-type-button-2 {
+    margin-left: 20px;
+    width: 175px;
+    padding: 9px;
+    outline: none;
+    border-radius: 8px;
+    background-color: azure;
+}
+
+.account-type-button-1:hover {
+    background-color: #fff200 
+}
+.account-type-button-1:focus {
+    outline: none;
+}
+.account-type-button-2:focus {
+    outline: none;
+}
+.active {
+    background-color: #fff200 ;
+    border: none;
+}
+.account-type-button-2:hover {
+    background-color: #fff200 
+}
+
+.pre-loader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

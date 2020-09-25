@@ -1,0 +1,103 @@
+.massage-page-container {
+    min-height: calc(100vh - 100px);
+}
+
+.people-container {
+    min-height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75); 
+    cursor: pointer;
+    margin: 30px 0 30px 0;
+    padding: 10px;
+}
+.people-name {
+    margin-left: 30px;
+}
+
+.people-container > img {
+    border-radius: 50%;
+}
+.display-message {
+    margin-top: 75px;
+    width: 100%;
+    height: 100%;
+}
+
+.mesage-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    min-height: 30px;
+    background-color: #343A40;
+    color: #BEB618;
+    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75); 
+}
+
+.mesage-header > p {
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.display-board {
+    padding: 10px;
+    min-height : 400px;
+    max-height : 400px;
+    background-color: #343A40;
+    color: azure;
+    font-size : 18px;
+    font-style:  italic;
+    box-shadow: 3px 3px 1px 0px rgba(0,0,0,0.75); 
+    overflow-y: scroll;
+}
+
+.people-container:hover {
+    background-color: #343A40;
+    color: #BEB618;
+}
+
+.people-container:focus-within {
+    background-color: #343A40;
+    color: #BEB618;
+}
+
+.people-container:active {
+    background-color: #343A40;
+    color: #BEB618;
+}
+
+.message-input-container {
+    margin: 30px 0 0 0;
+}
+.message-input {
+    margin: 0 10px 0 0;
+    width: 88%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.message-submit {
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.other-message {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+.own-message {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 30px;
+}

@@ -1,0 +1,108 @@
+.job-details-container {
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    min-height: 300px;
+    padding: 10px;
+}
+
+.project-file {
+    color: #28A745;
+    cursor: pointer;
+    padding: 10px
+}
+
+.project-button-container {
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.border-right {
+    border-width: 1px !important;
+    border-color: black !important;
+}
+
+.border-bottom {
+    border-width: 1px !important;
+    border-color: black !important;
+}
+
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #f8ce0b;
+}
+.input-cover-letter {
+    height: 200px;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.submit-button {
+    margin-right: 10px;
+    float: right;
+}
+
+.client-job-history-container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-application-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 150px;
+}
+
+.job-application-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.skill-text-job{
+    display: inline-block;
+    margin: 0 0 10px 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 10px;
+    background-color: #336278;
+    color: azure;
+
+}
+
+.job-history-title > a{
+  text-decoration: none;
+}
+
+.review-container > a {
+  text-decoration: none;
+}

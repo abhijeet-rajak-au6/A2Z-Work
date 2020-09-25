@@ -1,0 +1,53 @@
+.job-feed-page-container {
+    min-height: calc(100vh - 420px)
+}
+
+.job-search-box {
+    width: 100%;
+    margin: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.job-search-input {
+    width: 700px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+.job-feed-container {
+    margin-bottom: 30px;
+    padding: 10px;
+    min-height: 150px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    font-style: italic;
+}
+
+.job-title {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.feedback-form-container {
+    min-height: 150px;
+
+}
+
+.input-feedback {
+    margin: 30px 0 30px 80px ;
+    height: 150px;
+    width : 80%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.no-jobs-notice {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 420px);
+    justify-content: center;
+    align-items: center;
+}

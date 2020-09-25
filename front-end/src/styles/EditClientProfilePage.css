@@ -1,0 +1,212 @@
+.form-info-header {
+    color: #fff200;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.edit-profile-container {
+    margin-top: 30px;
+    font-style: italic;
+    background-color: #343A40;
+    min-height: 300px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+}
+.file-upload-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    color: azure;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.category-header{
+   color: azure;
+    font-size: 25px;
+    font-style: italic; 
+}
+
+.file-upload-input {
+    margin-left: 30px;
+    font-size: 16px;
+    background-color: azure;
+    border-radius: 50px;
+    box-shadow: 3px 3px 10px black;
+    width: 400px;
+    outline: none;
+}
+
+::-webkit-file-upload-button {
+    background-color: #E2D60F;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    outline: none;
+    cursor: pointer;
+}
+
+.input-title {
+    margin: 0 50px 20px 50px;
+    width: 65%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+.input-tagline {
+    margin: 0 100px 20px 145px;
+    width: 65%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+.input-website {
+    margin: 0 0 20px 135px;
+    width: 65%;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.input-description {
+    margin-left: 125px;
+    padding: 10px 20px;
+    height: 150px;
+    width: 73%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.city-name-input {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    width: 270px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.ph-no-input {
+    margin: 0 70px 20px 60px;
+    padding: 10px 20px;
+    width: 60%;
+    outline: none;
+    border-radius: 10px;
+}
+.vat-id-input {
+    margin: 0 100px 20px 60px;
+    padding: 10px 20px;
+    width: 60%;
+    outline: none;
+    border-radius: 10px;
+}
+
+.terms-conditions-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The container */
+.terms-conditions-lable {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.terms-conditions-lable input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.terms-conditions-checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.terms-conditions-lable:hover input ~ .terms-conditions-checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.terms-conditions-lable input:checked ~ .terms-conditions-checkmark {
+  background-color: #fff200;
+}
+
+/* Create the terms-conditions-checkmark/indicator (hidden when not checked) */
+.terms-conditions-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the terms-conditions-checkmark when checked */
+.terms-conditions-lable input:checked ~ .terms-conditions-checkmark:after {
+  display: block;
+}
+
+/* Style the terms-conditions-checkmark/indicator */
+.terms-conditions-lable .terms-conditions-checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.submit-profile-info {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.profile-info-submit-btn {
+    padding: 10px 20px;
+    width: 60%;
+    outline: none;
+    border-radius: 10px;
+    color: black;
+    background-color: #fff200;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.profile-info-submit-btn:hover {
+    background-color: #ffb900;
+}
+
+.profile-info-submit-btn:focus {
+    outline: none;
+}
+
+.pre-loader {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
